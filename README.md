@@ -14,7 +14,7 @@ Team:
 
 Potholes have been prevalent in places with high population density and poor road management services. Since then, they have been responsible for a huge chunk of road accidents that take place across the globe every year. Our application with its two-fold detection systems minimizes the chances of a pothole going undetected and is easily deployable over a smartphone. 
 
-
+![Workflow](https://github.com/AdityaPune/Pothole-Detection/tree/main/images/workflow.jpg "Workflow")
 
 The system we propose utilizes the following two methods of detection:
 
