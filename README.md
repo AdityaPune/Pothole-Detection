@@ -37,7 +37,15 @@ The spikes in Accelerometer and Gyroscope readings when a vehicle passes over a 
 
 1. Dataset for Camera based detection
 
-We trained our SSD mobile net on more than 135 unique pothole images captured using a 108-megapixel (f/1.7) camera on the Motorola Moto G60 smartphone. The dataset was collected to meet the realistic use case of the project considering various parameters like light sensitivity, angles, shadows, color, distance of pothole from a moving vehicle. The dataset is augmented using traditional image processing algorithms to avoid overfitting and increase dataset size. Below are few examples of the images in our dataset.
+We trained our SSD mobile net on more than 135 unique pothole images captured using a 108-megapixel (f/1.7) camera on the Motorola Moto G60 smartphone. The dataset was collected to meet the realistic use case of the project considering various parameters like light sensitivity, angles, shadows, color, distance of pothole from a moving vehicle. The dataset is augmented using traditional image processing algorithms to avoid overfitting and increase dataset size. Potholes in the images were annotated using LabelImg which generated a XML file for each image. Further, details of all images as well as XML files were converted to CSV format and later to TensorFlow RECORD format.
+
+Dataset Link - [Deep Learning Approach to Detect Potholes in Real-Time using Smartphone](https://drive.google.com/drive/folders/1kykyqrIQc1DCKKIaVPAWvmpDUvBVaKHM?usp=sharing)
+
+Below are few examples of the images in our dataset. 
+
+![alt text](readme_images/datasetSample.png "image title")
+
+
 
 ## Citation
 If you find the code and datasets useful in your research, please cite:
